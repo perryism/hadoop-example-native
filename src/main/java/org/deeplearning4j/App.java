@@ -12,7 +12,7 @@ import java.io.File;
  */
 public class App {
     public static void main( String[] args ) throws Exception {
-        File path = new ClassPathResource("/conf/ir.properties").getFile();
+        File path = new File(args[0]);
         IRUnitDriver driver = new IRUnitDriver(path.getAbsolutePath());
         driver.setup();
         driver.simulateRun();
