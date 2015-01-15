@@ -2,7 +2,6 @@ package org.deeplearning4j;
 
 
 import org.deeplearning4j.iterativereduce.irunit.IRUnitDriver;
-import org.springframework.core.io.ClassPathResource;
 
 import java.io.File;
 
